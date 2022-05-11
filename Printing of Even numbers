@@ -1,0 +1,48 @@
+// Printing Even numbers with count
+public class even {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+        int count=0;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%2==0)
+                count=count+1;
+             System.out.println(i*2);
+        }
+        {
+        System.out.println(count);
+        }
+    }
+}
+//printing the numbers in serial manner(it print in serial manner and count is ok)
+public class even {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+        int count=0;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%2==0)
+                count=count+1;
+             System.out.println(i);
+        }
+        {
+        System.out.println(count);
+        }
+    }
+}
+
+// print even numbers only with count
+public class even {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+        int count=0;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%2==0)
+             System.out.println(i);
+        }
+    }
+}
