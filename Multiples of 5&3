@@ -1,0 +1,29 @@
+public class Multiples {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+        int count=0;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%3==0 && i%5==0)
+             System.out.println(i);
+            count=count+1;
+        }
+        System.out.println(count);
+    }
+}
+
+//it print the count for multiples of 3&5  (so if i want to print the those number like 15 and 30 how i can do it?)
+public class Multiples {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+        int count=0;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%3==0 && i%5==0)
+            count=count+1;
+        }
+        System.out.println(count);
+    }
+}
